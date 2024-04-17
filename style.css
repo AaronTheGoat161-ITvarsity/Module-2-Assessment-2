@@ -58,13 +58,19 @@
     height: auto;
     object-fit: fill;
 }
-
+#center img{
+    object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
 #container h1, p{
     color: #080808;
     text-decoration: none;
     font-weight: 900;
 
 }
+
 .center{
     position: absolute;
     top: 50%;
@@ -109,13 +115,6 @@
     margin-right: auto;
     width: 265px;
     height: 199px;
-}
-
-
-img{
-    object-fit: contain;
-    width: 100%;
-    height: auto;
 }
 
 #container .welcome{
